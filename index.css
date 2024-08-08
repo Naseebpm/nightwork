@@ -1,0 +1,125 @@
+/* NAVIGATION BAR START */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .container-fluid .navbar-brand .logo-section .log{
+    width: 80px;
+    height: 80px;
+}
+.navbar .container-fluid .navbar-brand .logo-section{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    
+}
+.navbar .container-fluid .navbar-brand .logo-section .name-tag{
+    
+    height: 80px;
+}
+.navbar .container-fluid .navbar-brand .logo-section .name-tag p{
+    margin-top: -10px;
+}
+.navbar .container-fluid{
+    display: flex;
+    gap: 45px;
+    
+}
+.navbar .container-fluid .navbar-brand .logo-section .name-tag h1{
+    font-size: 30px;
+    margin-top: 12px;
+}
+.navbar .container-fluid .navbar-brand .logo-section .name-tag p{
+    font-size: 15px;
+}
+.navbar .container-fluid .collapse ul li{
+    font-weight: 650;
+
+}
+.navbar .container-fluid .collapse ul li a:hover{
+    color: #ffb700;
+}
+
+
+
+/* NAVIGATION BAR END */
+
+/* HOME MAIN SECTION START */
+
+
+/* HOME MAIN SECTION END */
+
+/* TITLE SECTION START */
+
+.heading_sec{
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.heading_sec h1{
+    font-size: 22px;
+}
+
+/* TITLE SECTION END */
+
+/* PRODUCTS START */
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.products .products_items{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    flex-wrap: wrap;
+    
+}
+.products .products_items .pro{
+    
+    width: 200px;
+    height: 350px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.products .products_items .pro .image_img{
+    width: 100%;
+    height: 120px;
+
+}
+
+.products .products_items .pro .detailes{
+    padding: 0px 20px;
+}
+.products .products_items .pro .detailes h1{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.products .products_items .pro .detailes button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 550;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px ;
+    border-radius:12px ;
+    background-color: rgba(62, 62, 200, 0.589);
+}
+
+/* PRODUCTS END */
