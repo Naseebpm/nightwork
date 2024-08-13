@@ -115,3 +115,17 @@
     }
     
 }
+
+@media screen and (max-width: 700px)
+{
+    .Aboutus .row .left,.Aboutus .row .right{
+        width: 600px;
+    }
+    .Aboutus .row .left{
+        margin-left: 0px;
+    }
+    .Aboutus .row .right{
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+}
