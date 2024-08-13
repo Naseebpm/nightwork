@@ -1,0 +1,117 @@
+@media screen and (max-width: 1300px) {
+    .navbar .container-fluid .navbar-brand .logo-section .log{
+        width: 60px;
+        height: 60px;
+    }
+    .navbar .container-fluid .navbar-brand .logo-section .name-tag h1{
+        font-size: 18px;
+    }
+    .navbar .container-fluid .navbar-brand .logo-section .name-tag p{
+        font-size: 13px;
+    }
+    .navbar .container-fluid .collapse .nav-item .nav-link{
+        font-size: 13px;
+    } 
+    .heading_sec h1{
+        font-size:18px;
+    }
+
+    .products h1{
+        font-size: 25px;
+    }
+    .products .products_items .pro{
+        width: 250px;
+        position: relative;
+    }
+    .products .products_items .pro .image_img{
+        height: 150px;
+    }
+    .products .products_items .pro .detailes .btn1{
+        position: absolute;
+        bottom: 10px;
+        left: 80px;
+        
+    }
+    .products .products_items .pro .detailes .btn2{
+        position: absolute;
+        bottom: 10px;
+        left: 80px;
+        
+    }
+    .products .products_items .pro .detailes .btn3{
+        position: absolute;
+        bottom: 10px;
+        left: 80px;
+        
+    }
+    .products .products_items .pro .detailes .btn4{
+        position: absolute;
+        bottom: 10px;
+        left: 80px;
+        
+    }
+    .products .products_items .pro .detailes .btn5{
+        position: absolute;
+        bottom: 10px;
+        left: 80px;
+        
+    }.products .products_items .pro .detailes .btn6{
+        position: absolute;
+        bottom: 10px;
+        left: 80px;
+        
+    }
+
+    .Aboutus{
+       
+
+    }
+    .Aboutus .row .left{
+       
+        
+    }
+
+    .Aboutus .row .right{
+        
+        
+        
+    }
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .navbar .container-fluid .navbar-brand .logo-section .name-tag h1{
+        font-size: 30px;
+    }
+    .navbar .container-fluid .navbar-brand .logo-section .name-tag p{
+        font-size: 15px;
+    }
+
+    .products .products_items .pro{
+        width: 290px;
+    }
+    .products .products_items .pro .detailes button{
+        margin-left: 22px;
+ 
+    }
+    .Aboutus .row .left,.Aboutus .row .right{
+        width: 600px;
+    }
+
+    .Aboutus .row .right{
+        margin-left: 51px;
+        margin-top: 25px;
+    }
+
+    .footer .container-fluid .row .box4 h4{
+        margin-left: 10px;
+    }
+    
+}
