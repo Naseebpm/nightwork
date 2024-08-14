@@ -136,3 +136,14 @@
         margin-top: 25px;
     }
 }
+
+@media screen and (max-width: 400px)
+{
+    .navbar .container-fluid .navbar-brand .logo-section .name-tag h1{
+        font-size: 17px;
+        margin-top: 25px;
+    }
+    .navbar .container-fluid .navbar-brand .logo-section .name-tag p{
+        font-size: 10px;
+    }
+}
